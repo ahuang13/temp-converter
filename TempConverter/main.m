@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TempConvertorAppDelegate.h"
+#import "TempConverterAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TempConvertorAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TempConverterAppDelegate class]));
     }
 }

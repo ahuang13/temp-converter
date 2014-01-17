@@ -12,15 +12,16 @@
 		92ED713D18893557006339F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED713C18893557006339F2 /* UIKit.framework */; };
 		92ED714318893557006339F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92ED714118893557006339F2 /* InfoPlist.strings */; };
 		92ED714518893557006339F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED714418893557006339F2 /* main.m */; };
-		92ED714918893557006339F2 /* TempConvertorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED714818893557006339F2 /* TempConvertorAppDelegate.m */; };
+		92ED714918893557006339F2 /* TempConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED714818893557006339F2 /* TempConverterAppDelegate.m */; };
 		92ED714C18893557006339F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ED714A18893557006339F2 /* Main.storyboard */; };
-		92ED714F18893557006339F2 /* TempConvertorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED714E18893557006339F2 /* TempConvertorViewController.m */; };
+		92ED714F18893557006339F2 /* TempConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED714E18893557006339F2 /* TempConverterViewController.m */; };
 		92ED715118893557006339F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ED715018893557006339F2 /* Images.xcassets */; };
 		92ED715818893557006339F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED715718893557006339F2 /* XCTest.framework */; };
 		92ED715918893557006339F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED713818893557006339F2 /* Foundation.framework */; };
 		92ED715A18893557006339F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED713C18893557006339F2 /* UIKit.framework */; };
 		92ED716218893557006339F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92ED716018893557006339F2 /* InfoPlist.strings */; };
 		92ED716418893557006339F2 /* TempConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED716318893557006339F2 /* TempConverterTests.m */; };
+		92ED716F1889360D006339F2 /* TempConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED716E1889360D006339F2 /* TempConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +43,19 @@
 		92ED714218893557006339F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92ED714418893557006339F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92ED714618893557006339F2 /* TempConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TempConverter-Prefix.pch"; sourceTree = "<group>"; };
-		92ED714718893557006339F2 /* TempConvertorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempConvertorAppDelegate.h; sourceTree = "<group>"; };
-		92ED714818893557006339F2 /* TempConvertorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConvertorAppDelegate.m; sourceTree = "<group>"; };
+		92ED714718893557006339F2 /* TempConverterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempConverterAppDelegate.h; sourceTree = "<group>"; };
+		92ED714818893557006339F2 /* TempConverterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterAppDelegate.m; sourceTree = "<group>"; };
 		92ED714B18893557006339F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92ED714D18893557006339F2 /* TempConvertorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempConvertorViewController.h; sourceTree = "<group>"; };
-		92ED714E18893557006339F2 /* TempConvertorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConvertorViewController.m; sourceTree = "<group>"; };
+		92ED714D18893557006339F2 /* TempConverterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempConverterViewController.h; sourceTree = "<group>"; };
+		92ED714E18893557006339F2 /* TempConverterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterViewController.m; sourceTree = "<group>"; };
 		92ED715018893557006339F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92ED715618893557006339F2 /* TempConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ED715718893557006339F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		92ED715F18893557006339F2 /* TempConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempConverterTests-Info.plist"; sourceTree = "<group>"; };
 		92ED716118893557006339F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92ED716318893557006339F2 /* TempConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterTests.m; sourceTree = "<group>"; };
+		92ED716D1889360D006339F2 /* TempConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempConverter.h; sourceTree = "<group>"; };
+		92ED716E1889360D006339F2 /* TempConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +115,15 @@
 		92ED713E18893557006339F2 /* TempConverter */ = {
 			isa = PBXGroup;
 			children = (
-				92ED714718893557006339F2 /* TempConvertorAppDelegate.h */,
-				92ED714818893557006339F2 /* TempConvertorAppDelegate.m */,
+				92ED714718893557006339F2 /* TempConverterAppDelegate.h */,
+				92ED714818893557006339F2 /* TempConverterAppDelegate.m */,
 				92ED714A18893557006339F2 /* Main.storyboard */,
-				92ED714D18893557006339F2 /* TempConvertorViewController.h */,
-				92ED714E18893557006339F2 /* TempConvertorViewController.m */,
+				92ED714D18893557006339F2 /* TempConverterViewController.h */,
+				92ED714E18893557006339F2 /* TempConverterViewController.m */,
 				92ED715018893557006339F2 /* Images.xcassets */,
 				92ED713F18893557006339F2 /* Supporting Files */,
+				92ED716D1889360D006339F2 /* TempConverter.h */,
+				92ED716E1889360D006339F2 /* TempConverter.m */,
 			);
 			path = TempConverter;
 			sourceTree = "<group>";
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92ED716F1889360D006339F2 /* TempConverter.m in Sources */,
 				92ED714518893557006339F2 /* main.m in Sources */,
-				92ED714F18893557006339F2 /* TempConvertorViewController.m in Sources */,
-				92ED714918893557006339F2 /* TempConvertorAppDelegate.m in Sources */,
+				92ED714F18893557006339F2 /* TempConverterViewController.m in Sources */,
+				92ED714918893557006339F2 /* TempConverterAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

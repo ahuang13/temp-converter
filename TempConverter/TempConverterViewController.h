@@ -1,5 +1,5 @@
 //
-//  TempConvertorAppDelegate.h
+//  TempConvertorViewController.h
 //  TempConverter
 //
 //  Created by Angus Huang on 1/17/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TempConvertorAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface TempConverterViewController : UIViewController
 
 @end

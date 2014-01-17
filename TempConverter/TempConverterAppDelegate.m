@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Angus Huang. All rights reserved.
 //
 
-#import "TempConvertorAppDelegate.h"
+#import "TempConverterAppDelegate.h"
 
-@implementation TempConvertorAppDelegate
+@implementation TempConverterAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
